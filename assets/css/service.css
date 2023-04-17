@@ -1,0 +1,15 @@
+body {
+    background-color: #eee;
+    background-image: linear-gradient(to right top, #ffc732, #2e3135, rgba(254, 185, 0, 0.8), #52565e, #fff)
+}
+
+.card {
+    border: none;
+    border-radius: 10px
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #69686a
+}
