@@ -953,6 +953,19 @@ section {
   margin-bottom: 0;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 360px) { 
+  .alt-services .icon-box p {
+    line-height: 24px;
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+  .alt-services .icon-box i {
+    font-size: 22px;
+    width: 29px;
+    height: 27px;
+  }
+  
+}
 
 
 /*--------------------------------------------------------------
@@ -1241,7 +1254,22 @@ section {
 .hero .carousel-control-next:hover {
   opacity: 0.9;
 }
+@media only screen and (min-width: 0px) and (max-width: 360px) { 
 
+  .hero .info p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+  }
+  .hero .info .btn-get-started {
+    font-size: 10px;
+    margin: 10px; 
+  }
+
+  .carousel-indicators{
+     margin-bottom: -5px;
+  }
+  
+}
 
 /*--------------------------------------------------------------
 # Footer
