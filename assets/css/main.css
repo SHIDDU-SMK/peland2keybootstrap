@@ -27,6 +27,7 @@ body {
   overflow-x: hidden;
 }
 
+
 a {
   color: var(--color-primary);
   text-decoration: none;
